@@ -1,3 +1,4 @@
+
 const routes = [
     {
         path: '/login',
@@ -12,9 +13,27 @@ const routes = [
 
     {
         path: "/",
-        meta: {requireAuth: true},
         component: () => import("layouts/MainLayout.vue"),
-        children: [{path: "", component: () => import("pages/Index.vue")}],
+        children: [
+            {
+                path: "",
+                component: () => import("pages/Index.vue"),
+                name: 'home'
+            },
+            {
+                path: 'quiz-overview',
+                component: () => import('pages/Quiz/StartQuiz'),
+                name: 'StartQuiz'
+            },
+            {
+                path: 'quiz',
+                component: () => import('pages/Quiz/QuizFrame'),
+                name: 'quiz',
+                children: [
+
+                ]
+            }
+        ],
     },
 
   // Always leave this as last one,
