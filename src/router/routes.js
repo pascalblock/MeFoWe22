@@ -32,6 +32,11 @@ const routes = [
                 children: [
 
                 ]
+            },
+            {
+                path: 'faq',
+                component: () => import('pages/faq'),
+                name: 'faq'
             }
         ],
     },

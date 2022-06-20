@@ -62,7 +62,7 @@ export default defineComponent({
               {
                   title: this.$t('sideBar.faq'),
                   icon: "quiz",
-                  link: "https://quasar.dev",
+                  link: "faq",
               },
               {
                   title: this.$t('sideBar.contact'),

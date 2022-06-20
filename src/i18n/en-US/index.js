@@ -35,5 +35,23 @@ export default {
             prev: 'prev Question',
             next: 'next Question'
         }
+    },
+    FAQ: {
+        headline: 'FAQ',
+        intro: 'Here you will find all the answers to your questions.',
+
+        q1: {
+            title: 'Which card was used?',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, eius reprehenderit eos corrupti\n' +
+                '                                    commodi magni quaerat ex numquam, dolorum officiis modi facere maiores architecto suscipit iste\n' +
+                '                                    eveniet doloribus ullam aliquid.'
+        },
+
+        q2: {
+            title: 'Can I share my achievements with my friends?',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, eius reprehenderit eos corrupti\n' +
+                '                                    commodi magni quaerat ex numquam, dolorum officiis modi facere maiores architecto suscipit iste\n' +
+                '                                    eveniet doloribus ullam aliquid.',
+        }
     }
 };
