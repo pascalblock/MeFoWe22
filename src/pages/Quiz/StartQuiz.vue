@@ -7,7 +7,7 @@
         <q-btn color="secondary" no-caps :label="$t('startPage.startButton')" :to="{name: 'quiz'}" />
     </div>
 
-    <q-page-sticky position="bottom-left" :offset="[18, 18]">
+    <q-page-sticky position="bottom-left" :offset="[18, 56]">
         <q-btn round color="primary" icon="arrow_back" :to="{ name: 'home'}" />
     </q-page-sticky>
 </q-page>

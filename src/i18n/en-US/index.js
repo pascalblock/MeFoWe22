@@ -22,8 +22,18 @@ export default {
     },
 
     quizFrame: {
-        question: 'Question',
-        prev: 'prev Question',
-        next: 'next Question'
+        header: {
+            question: 'Question',
+        },
+
+        helpOptions: {
+            speech: 'Speech',
+            text: 'Text'
+        },
+
+        footer: {
+            prev: 'prev Question',
+            next: 'next Question'
+        }
     }
 };
