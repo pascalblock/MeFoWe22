@@ -1,5 +1,5 @@
 <template>
-    <q-page-sticky position="bottom" :offset="[0, 56]">
+    <q-page-sticky class="mefo-help-button" position="bottom" :offset="[0, 56]">
         <q-fab color="primary" icon="question_mark" direction="up">
             <q-fab-action color="accent" icon="layers" :label="$t('quizFrame.helpOptions.layer')" />
             <q-fab-action color="accent" @click="helpSound" icon="volume_up" :label="$t('quizFrame.helpOptions.speech')" />
@@ -27,6 +27,10 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
+
+.mefo-help-button{
+    z-index: 10000;
+}
 
 </style>

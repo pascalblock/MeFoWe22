@@ -2,9 +2,9 @@
 <q-page>
     <quizHeader />
 
-    <p>Moin</p>
+    <Map />
 
-    <q-page-sticky position="bottom-left" :offset="[18, 56]">
+    <q-page-sticky class="mefo-back-button" position="bottom-left" :offset="[18, 56]">
         <q-btn round color="primary" icon="arrow_back" :to="{ name: 'StartQuiz'}" />
     </q-page-sticky>
 
@@ -17,6 +17,7 @@
 import quizHeader from "components/QuizHeader";
 import quizFooter from "components/QuizFooter";
 import helpOptions from "components/HelpOptions";
+import Map from "components/Map"
 
 export default {
     name: "QuizFrame",
@@ -24,11 +25,15 @@ export default {
     components: {
         quizHeader,
         quizFooter,
-        helpOptions
+        helpOptions,
+        Map
     }
 }
 </script>
 
-<style scoped>
+<style lang="scss">
+.mefo-back-button{
+    z-index: 1000;
+}
 
 </style>
