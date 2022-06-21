@@ -28,7 +28,7 @@ export default {
 
         helpOptions: {
             speech: 'Speech',
-            text: 'Text'
+            layer: 'Layer'
         },
 
         footer: {

@@ -33,7 +33,7 @@ export default {
 
         helpOptions: {
             speech: 'Sprache',
-            text: 'Text'
+            layer: 'Ansicht'
         },
 
         footer: {
